@@ -1,0 +1,5 @@
+[tool.ruff]
+extend-select = ["C4", "SIM", "TCH"]
+ignore = ["F401"]
+show-fixes = true
+target-version = "py39"

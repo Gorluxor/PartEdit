@@ -1,0 +1,32 @@
+name: partedit
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - setuptools>=61.0
+  - pytorch==2.1.0
+  - pytorch-cuda=11.8
+  - torchvision==0.16.0
+  - torchaudio==2.1.0
+  - numpy<1.24
+  - ipywidgets
+  - black[jupyter]
+  - jupyterlab
+  - matplotlib
+  - einops
+  - ftfy
+  - pip
+  - regex
+  - tqdm
+  - gradio<5.0 # not tasted on gradio 5.X, tested on gradio 4.29, but should work on 4.44.1 with pydantic fix
+  - huggingface_hub<0.26.0 # https://github.com/easydiffusion/easydiffusion/issues/1851#issuecomment-2437615074
+  - pydantic<=2.10.6 # https://github.com/facebookresearch/vggt/issues/260#issuecomment-3067853650
+  - pip:
+    - diffusers==0.27.2
+    - transformers==4.44.1 # note 
+    - accelerate
+    - datasets # tested on 3.3.2
+    - spaces

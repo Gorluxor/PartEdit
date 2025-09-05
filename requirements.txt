@@ -1,0 +1,31 @@
+# Requires Python 3.10.x
+# Pull PyTorch CUDA 11.8 wheels
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+setuptools>=61.0
+numpy<1.24
+# ipywidgets
+# black[jupyter]
+# jupyterlab
+# matplotlib
+einops
+ftfy
+regex
+tqdm
+
+# Core ML stack (PyTorch 2.1.0 + CUDA 11.8)
+torch==2.1.0
+torchvision==0.16.0
+# torchaudio==2.1.0
+
+# UI / HF stack
+gradio<5.0           # tested on 4.29; should work on 4.44.1 with pydantic fix
+huggingface_hub<0.26.0
+pydantic<=2.10.6
+
+# Diffusion / training utils
+diffusers==0.27.2
+transformers==4.44.1
+accelerate
+datasets             # tested on 3.3.2
+spaces
