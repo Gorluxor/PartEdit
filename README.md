@@ -4,7 +4,8 @@
 
 
 <!-- [![colab](https://colab.research.google.com/assets/colab-badge.svg)](google.com) -->
-[![arXiv](https://img.shields.io/badge/arXiv-2502.04050-b31b1b.svg)](google.com)
+[![arxiv](https://img.shields.io/badge/arXiv-2502.04050-b31b1b)](https://arxiv.org/abs/2502.04050)
+[![🎨 SIGGRAPH 2025](https://img.shields.io/badge/🎨%20Accepted-SIGGRAPH%202025-blueviolet)](https://dl.acm.org/doi/10.1145/3721238.3730747)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![website](https://img.shields.io/badge/🌐%20website-gorluxor.github.io/part--edit-blue.svg)](https://gorluxor.github.io/part-edit/)
 [![benchmark](https://img.shields.io/badge/🤗%20benchmark-Aleksandar/PartEdit--Bench-blue.svg)](https://huggingface.co/datasets/Aleksandar/PartEdit-Bench)
